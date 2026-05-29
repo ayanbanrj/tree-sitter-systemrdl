@@ -121,9 +121,15 @@ export default grammar({
       ),
 
     component_named_def: ($) =>
-      seq($.component_type, $.id, optional($.param_def), $.component_body),
+      seq(
+        field("type", $.component_type),
+        field("name", $.id),
+        optional(field("params", $.param_def)),
+        field("body", $.component_body),
+      ),
 
-    component_anon_def: ($) => seq($.component_type, $.component_body),
+    component_anon_def: ($) =>
+      seq(field("type", $.component_type), field("body", $.component_body)),
 
     component_body: ($) => seq("{", repeat($.component_body_elem), "}"),
 
@@ -146,8 +152,8 @@ export default grammar({
       seq(
         optional($.component_inst_type),
         optional($.component_inst_alias),
-        $.id,
-        $.component_insts,
+        field("type_id", $.id),
+        field("instances", $.component_insts),
         ";",
       ),
 
@@ -160,12 +166,12 @@ export default grammar({
 
     component_inst: ($) =>
       seq(
-        $.id,
-        optional($.component_inst_array_or_range),
-        optional(seq("=", $.constant_expression)),
-        optional(seq("@", $.constant_expression)),
-        optional(seq("+=", $.constant_expression)),
-        optional(seq("%=", $.constant_expression)),
+        field("name", $.id),
+        optional(field("range", $.component_inst_array_or_range)),
+        optional(seq("=", field("reset", $.constant_expression))),
+        optional(seq("@", field("address", $.constant_expression))),
+        optional(seq("+=", field("stride", $.constant_expression))),
+        optional(seq("%=", field("alignment", $.constant_expression))),
       ),
 
     component_inst_alias: ($) => seq("alias", $.id),
@@ -180,15 +186,21 @@ export default grammar({
       seq(
         optional("abstract"),
         "struct",
-        $.id,
-        optional(seq(":", $.id)),
-        $.struct_body,
+        field("name", $.id),
+        optional(seq(":", field("base", $.id))),
+        field("body", $.struct_body),
         ";",
       ),
 
     struct_body: ($) => seq("{", repeat($.struct_elem), "}"),
 
-    struct_elem: ($) => seq($.struct_type, $.id, optional($.array_type), ";"),
+    struct_elem: ($) =>
+      seq(
+        field("type", $.struct_type),
+        field("name", $.id),
+        optional(field("array", $.array_type)),
+        ";",
+      ),
 
     struct_type: ($) => choice($.data_type, $.component_type),
 
@@ -201,22 +213,37 @@ export default grammar({
       ),
 
     constraint_def_exp: ($) =>
-      seq($.id, $.constraint_body, optional($.constraint_insts)),
+      seq(
+        field("name", $.id),
+        field("body", $.constraint_body),
+        optional(field("instances", $.constraint_insts)),
+      ),
 
-    constraint_def_anon: ($) => seq($.constraint_body, $.constraint_insts),
+    constraint_def_anon: ($) =>
+      seq(
+        field("body", $.constraint_body),
+        field("instances", $.constraint_insts),
+      ),
 
     constraint_insts: ($) => seq($.id, repeat(seq(",", $.id))),
 
     constraint_body: ($) => seq("{", repeat(seq($.constraint_elem, ";")), "}"),
 
-    constraint_prop_assignment: ($) => seq($.id, "=", $.constant_expression),
+    constraint_prop_assignment: ($) =>
+      seq(field("lhs", $.id), "=", field("rhs", $.constant_expression)),
 
     constraint_elem: ($) =>
       choice(
         $.constant_expression,
         $.constraint_prop_assignment,
-        seq($.constraint_lhs, "inside", "{", $.constraint_values, "}"),
-        seq($.constraint_lhs, "inside", $.id),
+        seq(
+          field("lhs", $.constraint_lhs),
+          "inside",
+          "{",
+          field("rhs", $.constraint_values),
+          "}",
+        ),
+        seq(field("lhs", $.constraint_lhs), "inside", field("rhs", $.id)),
       ),
 
     constraint_values: ($) =>
@@ -237,30 +264,32 @@ export default grammar({
 
     param_def_elem: ($) =>
       seq(
-        $.data_type,
-        $.id,
-        optional($.array_type),
-        optional(seq("=", $.constant_expression)),
+        field("type", $.data_type),
+        field("name", $.id),
+        optional(field("array", $.array_type)),
+        optional(seq("=", field("default", $.constant_expression))),
       ),
 
     param_inst: ($) =>
       seq("#", "(", $.param_elem, repeat(seq(",", $.param_elem)), ")"),
 
-    param_elem: ($) => seq(".", $.id, "(", $.param_value, ")"),
+    param_elem: ($) =>
+      seq(".", field("name", $.id), "(", field("value", $.param_value), ")"),
 
     param_value: ($) => $.constant_expression,
 
     // B.7 Enums
 
-    enum_def: ($) => seq("enum", $.id, $.enum_body, ";"),
+    enum_def: ($) =>
+      seq("enum", field("name", $.id), field("body", $.enum_body), ";"),
 
     enum_body: ($) => seq("{", repeat1($.enum_entry), "}"),
 
     enum_entry: ($) =>
       seq(
-        $.id,
-        optional(seq("=", $.constant_expression)),
-        optional($.enum_property_assignment),
+        field("name", $.id),
+        optional(seq("=", field("value", $.constant_expression))),
+        optional(field("properties", $.enum_property_assignment)),
         ";",
       ),
 
@@ -278,22 +307,36 @@ export default grammar({
         seq(optional("default"), $.explicit_prop_assignment, ";"),
       ),
 
-    explicit_prop_modifier: ($) => seq($.prop_mod, $.id),
+    explicit_prop_modifier: ($) =>
+      seq(field("mod", $.prop_mod), field("name", $.id)),
 
-    explicit_encode_assignment: ($) => seq("encode", "=", $.id),
+    explicit_encode_assignment: ($) => seq("encode", "=", field("rhs", $.id)),
 
     explicit_prop_assignment: ($) =>
       choice(
-        seq($.prop_assignment_lhs, optional(seq("=", $.prop_assignment_rhs))),
+        seq(
+          field("lhs", $.prop_assignment_lhs),
+          optional(seq("=", field("rhs", $.prop_assignment_rhs))),
+        ),
         $.explicit_encode_assignment,
       ),
 
     post_encode_assignment: ($) =>
-      seq($.instance_ref, "->", "encode", "=", $.id),
+      seq(
+        field("lhs", $.instance_ref),
+        "->",
+        "encode",
+        "=",
+        field("rhs", $.id),
+      ),
 
     post_prop_assignment: ($) =>
       choice(
-        seq($.prop_ref, optional(seq("=", $.prop_assignment_rhs)), ";"),
+        seq(
+          field("lhs", $.prop_ref),
+          optional(seq("=", field("rhs", $.prop_assignment_rhs))),
+          ";",
+        ),
         seq($.post_encode_assignment, ";"),
       ),
 
@@ -315,7 +358,8 @@ export default grammar({
     struct_literal_body: ($) =>
       seq($.struct_literal_elem, repeat(seq(",", $.struct_literal_elem))),
 
-    struct_literal_elem: ($) => seq($.id, ":", $.constant_expression),
+    struct_literal_elem: ($) =>
+      seq(field("name", $.id), ":", field("value", $.constant_expression)),
 
     // B.10 Array literal
 
@@ -331,25 +375,40 @@ export default grammar({
 
     prop_ref: ($) =>
       choice(
-        seq($.instance_ref, "->", $.prop_keyword),
-        seq($.instance_ref, "->", $.id),
+        seq(
+          field("instance", $.instance_ref),
+          "->",
+          field("prop", $.prop_keyword),
+        ),
+        seq(field("instance", $.instance_ref), "->", field("prop", $.id)),
       ),
 
     instance_or_prop_ref: ($) =>
       choice(
-        seq($.instance_ref, "->", $.prop_keyword),
-        seq($.instance_ref, "->", $.id),
+        seq(
+          field("instance", $.instance_ref),
+          "->",
+          field("prop", $.prop_keyword),
+        ),
+        seq(field("instance", $.instance_ref), "->", field("prop", $.id)),
         $.instance_ref,
       ),
 
-    instance_ref_element: ($) => seq($.id, repeat($.array)),
+    instance_ref_element: ($) =>
+      seq(field("name", $.id), repeat(field("array", $.array))),
 
     // B.12 Array and range
 
     range: ($) =>
-      seq("[", $.constant_expression, ":", $.constant_expression, "]"),
+      seq(
+        "[",
+        field("msb", $.constant_expression),
+        ":",
+        field("lsb", $.constant_expression),
+        "]",
+      ),
 
-    array: ($) => seq("[", $.constant_expression, "]"),
+    array: ($) => seq("[", field("size", $.constant_expression), "]"),
 
     array_type: ($) => seq("[", "]"),
 
