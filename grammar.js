@@ -10,7 +10,7 @@
 export default grammar({
   name: "systemrdl",
 
-  word: ($) => $.id,
+  word: ($) => $.id_start,
 
   extras: ($) => [
     /\s/,
@@ -41,7 +41,14 @@ export default grammar({
 
     // 16.1 Embedded Perl preprocessing
 
-    embedded_perl: ($) => /<%([^%]|%+[^%>])*%+>/,
+    embedded_perl_code: ($) => /([^%]|%+[^%>])*/,
+
+    embedded_perl: ($) =>
+      seq(
+        choice("<%", "<%="),
+        optional(field("content", $.embedded_perl_code)),
+        "%>",
+      ),
 
     // 16.2 Verilog-style preprocessor
 
@@ -696,11 +703,17 @@ export default grammar({
 
     // B.17 Identifiers
 
+    id_start: ($) => /[a-zA-Z_]\w*/,
+
+    id_chunk: ($) => /\w+/,
+
+    id_escaped: ($) => /\\\S+ /,
+
     id: ($) =>
-      token(
+      prec.right(
         seq(
-          choice(/[a-zA-Z_]\w*/, /\\\S+ /, /<%([^%]|%+[^%>])*%+>/),
-          repeat(choice(/\w+/, /<%([^%]|%+[^%>])*%+>/)),
+          choice($.id_start, $.id_escaped),
+          repeat(choice($.id_chunk, $.id_escaped)),
         ),
       ),
   },

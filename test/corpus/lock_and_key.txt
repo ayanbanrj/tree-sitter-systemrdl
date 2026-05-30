@@ -103,14 +103,16 @@ addrmap my_map {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (property_assignment
               (explicit_or_default_prop_assignment
                 (explicit_prop_assignment
                   (prop_assignment_lhs
-                    (id))))))
+                    (id
+                      (id_start)))))))
           (component_body_elem
             (component_def
               (component_anon_def
@@ -150,11 +152,13 @@ addrmap my_map {
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (prop_assignment_lhs
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (line_comment)))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (array
                               (constant_expression
@@ -195,7 +199,8 @@ addrmap my_map {
                                           (accesstype_literal)))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (array
                               (constant_expression
@@ -208,7 +213,8 @@ addrmap my_map {
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (component_def
               (component_anon_def
@@ -245,7 +251,8 @@ addrmap my_map {
                                           (accesstype_literal)))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -253,7 +260,8 @@ addrmap my_map {
                   (line_comment)))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (line_comment)
           (component_body_elem
@@ -262,18 +270,23 @@ addrmap my_map {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)))))
   (line_comment))

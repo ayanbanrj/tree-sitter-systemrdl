@@ -52,217 +52,286 @@ addrmap top2 {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))))))
+                  (id
+                    (id_start))))))))))
   (description
     (component_def
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))))))
+                  (id
+                    (id_start))))))))))
   (description
     (component_def
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id))))))))))
+                  (id
+                    (id_start)))))))))))

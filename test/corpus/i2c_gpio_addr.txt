@@ -99,14 +99,16 @@ addrmap i2c_gpio_addr {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (property_assignment
               (explicit_or_default_prop_assignment
                 (explicit_prop_assignment
                   (prop_assignment_lhs
-                    (id))
+                    (id
+                      (id_start)))
                   (prop_assignment_rhs
                     (constant_expression
                       (constant_primary
@@ -148,7 +150,8 @@ addrmap i2c_gpio_addr {
                                           (accesstype_literal)))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -161,7 +164,8 @@ addrmap i2c_gpio_addr {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -202,7 +206,8 @@ addrmap i2c_gpio_addr {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -211,7 +216,8 @@ addrmap i2c_gpio_addr {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -224,7 +230,8 @@ addrmap i2c_gpio_addr {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal

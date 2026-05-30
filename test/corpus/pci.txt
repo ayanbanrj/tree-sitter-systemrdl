@@ -888,7 +888,8 @@ addrmap pci_map {                                          // Define the Address
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (line_comment)
           (line_comment)
@@ -899,7 +900,8 @@ addrmap pci_map {                                          // Define the Address
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -908,7 +910,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -920,27 +923,31 @@ addrmap pci_map {                                          // Define the Address
                       (explicit_or_default_prop_assignment
                         (explicit_prop_assignment
                           (prop_assignment_lhs
-                            (id))))))
+                            (id
+                              (id_start)))))))
                   (line_comment)
                   (component_body_elem
                     (property_assignment
                       (explicit_or_default_prop_assignment
                         (explicit_prop_assignment
                           (prop_assignment_lhs
-                            (id))))))
+                            (id
+                              (id_start)))))))
                   (line_comment)
                   (component_body_elem
                     (property_assignment
                       (explicit_or_default_prop_assignment
                         (explicit_prop_assignment
                           (prop_assignment_lhs
-                            (id))))))
+                            (id
+                              (id_start)))))))
                   (line_comment)
                   (line_comment)
                   (line_comment)))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (component_def
               (component_anon_def
@@ -948,7 +955,8 @@ addrmap pci_map {                                          // Define the Address
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -957,7 +965,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -969,27 +978,31 @@ addrmap pci_map {                                          // Define the Address
                       (explicit_or_default_prop_assignment
                         (explicit_prop_assignment
                           (prop_assignment_lhs
-                            (id))))))
+                            (id
+                              (id_start)))))))
                   (line_comment)
                   (component_body_elem
                     (property_assignment
                       (explicit_or_default_prop_assignment
                         (explicit_prop_assignment
                           (prop_assignment_lhs
-                            (id))))))
+                            (id
+                              (id_start)))))))
                   (line_comment)
                   (component_body_elem
                     (property_assignment
                       (explicit_or_default_prop_assignment
                         (explicit_prop_assignment
                           (prop_assignment_lhs
-                            (id))))))
+                            (id
+                              (id_start)))))))
                   (line_comment)
                   (line_comment)
                   (line_comment)))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (line_comment)
           (line_comment)
@@ -1002,7 +1015,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1011,7 +1025,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1020,7 +1035,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1059,7 +1075,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1067,12 +1084,14 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))
+                                            (id
+                                              (id_start)))))))))))
                           (line_comment)
                           (line_comment)))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1089,7 +1108,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (component_def
@@ -1100,7 +1120,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1109,7 +1130,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1118,7 +1140,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1157,7 +1180,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1167,7 +1191,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1175,11 +1200,13 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))
+                                            (id
+                                              (id_start)))))))))))
                           (line_comment)))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1196,7 +1223,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (component_def
@@ -1207,7 +1235,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1216,7 +1245,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1225,7 +1255,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1241,7 +1272,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1250,7 +1282,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1282,7 +1315,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1291,7 +1325,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1314,7 +1349,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1323,7 +1359,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1355,7 +1392,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1364,7 +1402,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1387,7 +1426,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1396,7 +1436,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1428,7 +1469,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1437,7 +1479,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1460,7 +1503,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1469,7 +1513,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1501,7 +1546,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1510,7 +1556,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1533,7 +1580,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1542,7 +1590,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1574,7 +1623,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1583,7 +1633,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1606,7 +1657,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1615,7 +1667,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1647,7 +1700,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1656,7 +1710,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1679,7 +1734,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1688,7 +1744,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1720,7 +1777,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1729,7 +1787,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1752,7 +1811,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1761,7 +1821,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1793,7 +1854,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1803,7 +1865,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1826,7 +1889,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1835,7 +1899,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1867,7 +1932,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1876,7 +1942,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1899,7 +1966,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1908,7 +1976,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1940,7 +2009,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1949,7 +2019,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1972,7 +2043,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1981,7 +2053,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2013,7 +2086,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2022,7 +2096,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2046,7 +2121,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2078,7 +2154,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2087,7 +2164,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2096,7 +2174,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2109,7 +2188,8 @@ addrmap pci_map {                                          // Define the Address
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (component_def
@@ -2120,7 +2200,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -2129,7 +2210,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -2138,7 +2220,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -2154,7 +2237,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2163,7 +2247,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2195,7 +2280,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2204,7 +2290,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2223,7 +2310,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2232,7 +2320,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2264,7 +2353,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2273,7 +2363,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2297,7 +2388,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2306,76 +2398,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
-                              (component_insts
-                                (component_inst
-                                  (constant_expression
-                                    (constant_primary
-                                      (primary_literal
-                                        (string_literal))))))))
-                          (component_body_elem
-                            (property_assignment
-                              (explicit_or_default_prop_assignment
-                                (explicit_prop_assignment
-                                  (prop_assignment_lhs
-                                    (prop_keyword))
-                                  (prop_assignment_rhs
-                                    (constant_expression
-                                      (constant_primary
-                                        (primary_literal
-                                          (accesstype_literal)))))))))
-                          (component_body_elem
-                            (property_assignment
-                              (explicit_or_default_prop_assignment
-                                (explicit_prop_assignment
-                                  (prop_assignment_lhs
-                                    (prop_keyword))
-                                  (prop_assignment_rhs
-                                    (constant_expression
-                                      (constant_primary
-                                        (primary_literal
-                                          (accesstype_literal)))))))))
-                          (line_comment)
-                          (component_body_elem
-                            (explicit_component_inst
-                              (id)
-                              (component_insts
-                                (component_inst
-                                  (constant_expression
-                                    (constant_primary
-                                      (primary_literal
-                                        (number))))))))))
-                      (component_insts
-                        (component_inst
-                          (id)
-                          (component_inst_array_or_range
-                            (range
-                              (constant_expression
-                                (constant_primary
-                                  (primary_literal
-                                    (number))))
-                              (constant_expression
-                                (constant_primary
-                                  (primary_literal
-                                    (number))))))))))
-                  (component_body_elem
-                    (component_def
-                      (component_anon_def
-                        (component_type
-                          (component_primary_type))
-                        (component_body
-                          (component_body_elem
-                            (explicit_component_inst
-                              (id)
-                              (component_insts
-                                (component_inst
-                                  (constant_expression
-                                    (constant_primary
-                                      (primary_literal
-                                        (string_literal))))))))
-                          (component_body_elem
-                            (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2407,7 +2431,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2416,7 +2441,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2435,7 +2461,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2444,7 +2471,81 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
+                              (component_insts
+                                (component_inst
+                                  (constant_expression
+                                    (constant_primary
+                                      (primary_literal
+                                        (string_literal))))))))
+                          (component_body_elem
+                            (property_assignment
+                              (explicit_or_default_prop_assignment
+                                (explicit_prop_assignment
+                                  (prop_assignment_lhs
+                                    (prop_keyword))
+                                  (prop_assignment_rhs
+                                    (constant_expression
+                                      (constant_primary
+                                        (primary_literal
+                                          (accesstype_literal)))))))))
+                          (component_body_elem
+                            (property_assignment
+                              (explicit_or_default_prop_assignment
+                                (explicit_prop_assignment
+                                  (prop_assignment_lhs
+                                    (prop_keyword))
+                                  (prop_assignment_rhs
+                                    (constant_expression
+                                      (constant_primary
+                                        (primary_literal
+                                          (accesstype_literal)))))))))
+                          (line_comment)
+                          (component_body_elem
+                            (explicit_component_inst
+                              (id
+                                (id_start))
+                              (component_insts
+                                (component_inst
+                                  (constant_expression
+                                    (constant_primary
+                                      (primary_literal
+                                        (number))))))))))
+                      (component_insts
+                        (component_inst
+                          (id
+                            (id_start))
+                          (component_inst_array_or_range
+                            (range
+                              (constant_expression
+                                (constant_primary
+                                  (primary_literal
+                                    (number))))
+                              (constant_expression
+                                (constant_primary
+                                  (primary_literal
+                                    (number))))))))))
+                  (component_body_elem
+                    (component_def
+                      (component_anon_def
+                        (component_type
+                          (component_primary_type))
+                        (component_body
+                          (component_body_elem
+                            (explicit_component_inst
+                              (id
+                                (id_start))
+                              (component_insts
+                                (component_inst
+                                  (constant_expression
+                                    (constant_primary
+                                      (primary_literal
+                                        (string_literal))))))))
+                          (component_body_elem
+                            (explicit_component_inst
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2482,7 +2583,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2494,10 +2596,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (prop_assignment_lhs
-                                    (id))))))))
+                                    (id
+                                      (id_start)))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2516,7 +2620,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2525,7 +2630,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2560,10 +2666,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (explicit_encode_assignment
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2572,7 +2680,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2591,7 +2700,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2600,7 +2710,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2641,10 +2752,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (prop_assignment_lhs
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2653,7 +2766,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2672,7 +2786,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2681,7 +2796,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2722,10 +2838,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (prop_assignment_lhs
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2734,7 +2852,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2753,7 +2872,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2762,7 +2882,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2803,10 +2924,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (prop_assignment_lhs
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2815,7 +2938,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2834,7 +2958,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2843,7 +2968,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2884,10 +3010,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (prop_assignment_lhs
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2896,7 +3024,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2915,7 +3044,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2924,7 +3054,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2965,10 +3096,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (prop_assignment_lhs
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -2977,7 +3110,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -2990,7 +3124,8 @@ addrmap pci_map {                                          // Define the Address
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (component_def
@@ -3002,7 +3137,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3039,7 +3175,8 @@ addrmap pci_map {                                          // Define the Address
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3047,10 +3184,12 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))
+                                            (id
+                                              (id_start)))))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3059,7 +3198,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3068,7 +3208,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3077,7 +3218,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -3094,7 +3236,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3110,7 +3253,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3119,7 +3263,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3151,7 +3296,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3160,7 +3306,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3168,10 +3315,12 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))))
+                                            (id
+                                              (id_start)))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (array
                               (constant_expression
@@ -3190,7 +3339,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3222,7 +3372,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3231,7 +3382,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3239,10 +3391,12 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))))
+                                            (id
+                                              (id_start)))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (array
                               (constant_expression
@@ -3261,7 +3415,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3293,7 +3448,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3305,10 +3461,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (explicit_encode_assignment
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3316,10 +3474,12 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))))
+                                            (id
+                                              (id_start)))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (array
                               (constant_expression
@@ -3332,7 +3492,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (component_def
@@ -3343,7 +3504,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3352,7 +3514,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3361,7 +3524,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3400,7 +3564,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3409,7 +3574,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -3426,7 +3592,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (component_def
               (component_anon_def
@@ -3436,7 +3603,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3445,7 +3613,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3454,7 +3623,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3493,7 +3663,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3502,7 +3673,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -3519,7 +3691,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (component_def
               (component_anon_def
@@ -3529,7 +3702,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3538,7 +3712,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3547,7 +3722,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3563,7 +3739,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3594,7 +3771,8 @@ addrmap pci_map {                                          // Define the Address
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3606,10 +3784,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (explicit_encode_assignment
-                                    (id))))))
+                                    (id
+                                      (id_start)))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3617,10 +3797,12 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))))
+                                            (id
+                                              (id_start)))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -3643,7 +3825,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3674,7 +3857,8 @@ addrmap pci_map {                                          // Define the Address
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3683,7 +3867,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3691,10 +3876,12 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))))
+                                            (id
+                                              (id_start)))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -3711,7 +3898,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (component_def
               (component_anon_def
@@ -3721,7 +3909,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3730,7 +3919,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3739,7 +3929,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -3755,7 +3946,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3764,76 +3956,8 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
-                              (component_insts
-                                (component_inst
-                                  (constant_expression
-                                    (constant_primary
-                                      (primary_literal
-                                        (string_literal))))))))
-                          (component_body_elem
-                            (property_assignment
-                              (explicit_or_default_prop_assignment
-                                (explicit_prop_assignment
-                                  (prop_assignment_lhs
-                                    (prop_keyword))
-                                  (prop_assignment_rhs
-                                    (constant_expression
-                                      (constant_primary
-                                        (primary_literal
-                                          (accesstype_literal)))))))))
-                          (component_body_elem
-                            (property_assignment
-                              (explicit_or_default_prop_assignment
-                                (explicit_prop_assignment
-                                  (prop_assignment_lhs
-                                    (prop_keyword))
-                                  (prop_assignment_rhs
-                                    (constant_expression
-                                      (constant_primary
-                                        (primary_literal
-                                          (accesstype_literal)))))))))
-                          (line_comment)
-                          (component_body_elem
-                            (explicit_component_inst
-                              (id)
-                              (component_insts
-                                (component_inst
-                                  (constant_expression
-                                    (constant_primary
-                                      (primary_literal
-                                        (number))))))))))
-                      (component_insts
-                        (component_inst
-                          (id)
-                          (component_inst_array_or_range
-                            (range
-                              (constant_expression
-                                (constant_primary
-                                  (primary_literal
-                                    (number))))
-                              (constant_expression
-                                (constant_primary
-                                  (primary_literal
-                                    (number))))))))))
-                  (component_body_elem
-                    (component_def
-                      (component_anon_def
-                        (component_type
-                          (component_primary_type))
-                        (component_body
-                          (component_body_elem
-                            (explicit_component_inst
-                              (id)
-                              (component_insts
-                                (component_inst
-                                  (constant_expression
-                                    (constant_primary
-                                      (primary_literal
-                                        (string_literal))))))))
-                          (component_body_elem
-                            (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3865,7 +3989,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3874,7 +3999,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -3893,7 +4019,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3902,7 +4029,81 @@ addrmap pci_map {                                          // Define the Address
                                         (string_literal))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
+                              (component_insts
+                                (component_inst
+                                  (constant_expression
+                                    (constant_primary
+                                      (primary_literal
+                                        (string_literal))))))))
+                          (component_body_elem
+                            (property_assignment
+                              (explicit_or_default_prop_assignment
+                                (explicit_prop_assignment
+                                  (prop_assignment_lhs
+                                    (prop_keyword))
+                                  (prop_assignment_rhs
+                                    (constant_expression
+                                      (constant_primary
+                                        (primary_literal
+                                          (accesstype_literal)))))))))
+                          (component_body_elem
+                            (property_assignment
+                              (explicit_or_default_prop_assignment
+                                (explicit_prop_assignment
+                                  (prop_assignment_lhs
+                                    (prop_keyword))
+                                  (prop_assignment_rhs
+                                    (constant_expression
+                                      (constant_primary
+                                        (primary_literal
+                                          (accesstype_literal)))))))))
+                          (line_comment)
+                          (component_body_elem
+                            (explicit_component_inst
+                              (id
+                                (id_start))
+                              (component_insts
+                                (component_inst
+                                  (constant_expression
+                                    (constant_primary
+                                      (primary_literal
+                                        (number))))))))))
+                      (component_insts
+                        (component_inst
+                          (id
+                            (id_start))
+                          (component_inst_array_or_range
+                            (range
+                              (constant_expression
+                                (constant_primary
+                                  (primary_literal
+                                    (number))))
+                              (constant_expression
+                                (constant_primary
+                                  (primary_literal
+                                    (number))))))))))
+                  (component_body_elem
+                    (component_def
+                      (component_anon_def
+                        (component_type
+                          (component_primary_type))
+                        (component_body
+                          (component_body_elem
+                            (explicit_component_inst
+                              (id
+                                (id_start))
+                              (component_insts
+                                (component_inst
+                                  (constant_expression
+                                    (constant_primary
+                                      (primary_literal
+                                        (string_literal))))))))
+                          (component_body_elem
+                            (explicit_component_inst
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3933,7 +4134,8 @@ addrmap pci_map {                                          // Define the Address
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3942,7 +4144,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -3950,10 +4153,12 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))))
+                                            (id
+                                              (id_start)))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -3970,30 +4175,37 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (line_comment)
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -4001,10 +4213,13 @@ addrmap pci_map {                                          // Define the Address
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
@@ -4016,8 +4231,10 @@ addrmap pci_map {                                          // Define the Address
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
@@ -4029,8 +4246,10 @@ addrmap pci_map {                                          // Define the Address
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
@@ -4046,7 +4265,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4055,7 +4275,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4064,7 +4285,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4081,7 +4303,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4089,7 +4312,8 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))
+                                            (id
+                                              (id_start)))))))))))
                           (component_body_elem
                             (property_assignment
                               (explicit_or_default_prop_assignment
@@ -4115,7 +4339,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4124,7 +4349,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4141,7 +4367,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -4156,7 +4383,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4165,7 +4393,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4174,7 +4403,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4191,7 +4421,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4199,7 +4430,8 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))
+                                            (id
+                                              (id_start)))))))))))
                           (component_body_elem
                             (property_assignment
                               (explicit_or_default_prop_assignment
@@ -4225,7 +4457,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4234,7 +4467,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4259,7 +4493,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4267,7 +4502,8 @@ addrmap pci_map {                                          // Define the Address
                                       (instance_or_prop_ref
                                         (instance_ref
                                           (instance_ref_element
-                                            (id))))))))))
+                                            (id
+                                              (id_start)))))))))))
                           (component_body_elem
                             (property_assignment
                               (explicit_or_default_prop_assignment
@@ -4293,7 +4529,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4302,7 +4539,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4319,7 +4557,8 @@ addrmap pci_map {                                          // Define the Address
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -4333,7 +4572,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4342,7 +4582,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4351,7 +4592,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4368,7 +4610,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4401,7 +4644,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4410,7 +4654,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4429,7 +4674,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4461,7 +4707,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4472,7 +4719,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4481,7 +4729,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4500,7 +4749,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4533,7 +4783,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4542,7 +4793,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4555,7 +4807,8 @@ addrmap pci_map {                                          // Define the Address
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -4570,7 +4823,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4579,7 +4833,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4588,7 +4843,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4629,7 +4885,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4638,7 +4895,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4651,7 +4909,8 @@ addrmap pci_map {                                          // Define the Address
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -4665,7 +4924,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4674,7 +4934,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4683,7 +4944,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4700,7 +4962,8 @@ addrmap pci_map {                                          // Define the Address
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4733,7 +4996,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4745,10 +5009,12 @@ addrmap pci_map {                                          // Define the Address
                               (explicit_or_default_prop_assignment
                                 (explicit_prop_assignment
                                   (explicit_encode_assignment
-                                    (id))))))))
+                                    (id
+                                      (id_start)))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4761,7 +5027,8 @@ addrmap pci_map {                                          // Define the Address
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -4775,7 +5042,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4784,7 +5052,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4793,7 +5062,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4834,7 +5104,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4843,7 +5114,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4856,7 +5128,8 @@ addrmap pci_map {                                          // Define the Address
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -4870,7 +5143,8 @@ addrmap pci_map {                                          // Define the Address
                   (line_comment)
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4879,7 +5153,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4888,7 +5163,8 @@ addrmap pci_map {                                          // Define the Address
                                 (string_literal))))))))
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -4929,7 +5205,8 @@ addrmap pci_map {                                          // Define the Address
                           (line_comment)
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -4938,7 +5215,8 @@ addrmap pci_map {                                          // Define the Address
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -4951,7 +5229,8 @@ addrmap pci_map {                                          // Define the Address
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal

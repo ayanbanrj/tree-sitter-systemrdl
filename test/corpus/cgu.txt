@@ -206,7 +206,8 @@ addrmap cgu {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (component_def
@@ -222,7 +223,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -253,7 +255,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -262,7 +265,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -281,7 +285,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -312,7 +317,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -321,7 +327,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -334,7 +341,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -353,7 +361,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -384,7 +393,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -393,7 +403,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -412,7 +423,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -443,7 +455,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -452,7 +465,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -465,7 +479,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -484,7 +499,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -515,7 +531,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -524,7 +541,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -543,7 +561,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -574,7 +593,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -583,7 +603,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -596,7 +617,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -615,7 +637,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -646,7 +669,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -655,7 +679,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -674,7 +699,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -705,7 +731,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -714,7 +741,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -727,7 +755,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -746,7 +775,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -777,7 +807,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -786,7 +817,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -805,7 +837,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -836,7 +869,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -845,7 +879,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -858,7 +893,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -877,7 +913,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -908,7 +945,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -917,7 +955,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -936,7 +975,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -967,7 +1007,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -976,7 +1017,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -989,7 +1031,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1008,7 +1051,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1039,7 +1083,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1048,7 +1093,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1067,7 +1113,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1098,7 +1145,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1107,7 +1155,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1120,7 +1169,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1139,7 +1189,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1170,7 +1221,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1179,7 +1231,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1198,7 +1251,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1229,7 +1283,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1238,7 +1293,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1251,7 +1307,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1264,7 +1321,8 @@ addrmap cgu {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1279,7 +1337,8 @@ addrmap cgu {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1310,7 +1369,8 @@ addrmap cgu {
                                           (accesstype_literal)))))))))
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1319,7 +1379,8 @@ addrmap cgu {
                                         (number))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (range
                               (constant_expression
@@ -1332,7 +1393,8 @@ addrmap cgu {
                                     (number))))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal

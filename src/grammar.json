@@ -1,7 +1,7 @@
 {
   "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/grammar.schema.json",
   "name": "systemrdl",
-  "word": "id",
+  "word": "id_start",
   "rules": {
     "source_file": {
       "type": "REPEAT",
@@ -18,9 +18,47 @@
       "type": "PATTERN",
       "value": "\\/\\*([^*]|\\*+[^/*])*\\*+\\/"
     },
-    "embedded_perl": {
+    "embedded_perl_code": {
       "type": "PATTERN",
-      "value": "<%([^%]|%+[^%>])*%+>"
+      "value": "([^%]|%+[^%>])*"
+    },
+    "embedded_perl": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "<%"
+            },
+            {
+              "type": "STRING",
+              "value": "<%="
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "FIELD",
+              "name": "content",
+              "content": {
+                "type": "SYMBOL",
+                "name": "embedded_perl_code"
+              }
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "STRING",
+          "value": "%>"
+        }
+      ]
     },
     "preprocessor_directive": {
       "type": "PATTERN",
@@ -3997,8 +4035,21 @@
         }
       ]
     },
+    "id_start": {
+      "type": "PATTERN",
+      "value": "[a-zA-Z_]\\w*"
+    },
+    "id_chunk": {
+      "type": "PATTERN",
+      "value": "\\w+"
+    },
+    "id_escaped": {
+      "type": "PATTERN",
+      "value": "\\\\\\S+ "
+    },
     "id": {
-      "type": "TOKEN",
+      "type": "PREC_RIGHT",
+      "value": 0,
       "content": {
         "type": "SEQ",
         "members": [
@@ -4006,16 +4057,12 @@
             "type": "CHOICE",
             "members": [
               {
-                "type": "PATTERN",
-                "value": "[a-zA-Z_]\\w*"
+                "type": "SYMBOL",
+                "name": "id_start"
               },
               {
-                "type": "PATTERN",
-                "value": "\\\\\\S+ "
-              },
-              {
-                "type": "PATTERN",
-                "value": "<%([^%]|%+[^%>])*%+>"
+                "type": "SYMBOL",
+                "name": "id_escaped"
               }
             ]
           },
@@ -4025,12 +4072,12 @@
               "type": "CHOICE",
               "members": [
                 {
-                  "type": "PATTERN",
-                  "value": "\\w+"
+                  "type": "SYMBOL",
+                  "name": "id_chunk"
                 },
                 {
-                  "type": "PATTERN",
-                  "value": "<%([^%]|%+[^%>])*%+>"
+                  "type": "SYMBOL",
+                  "name": "id_escaped"
                 }
               ]
             }

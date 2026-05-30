@@ -222,7 +222,8 @@ addrmap ambaAPB {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (component_def
@@ -244,7 +245,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -275,7 +277,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -284,7 +287,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -303,7 +307,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -334,7 +339,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -343,7 +349,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -356,7 +363,8 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -375,7 +383,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -406,7 +415,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -415,7 +425,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -434,7 +445,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -465,7 +477,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -474,7 +487,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -487,7 +501,8 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -506,7 +521,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -537,7 +553,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -546,7 +563,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -565,7 +583,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -596,7 +615,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -605,7 +625,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -618,7 +639,8 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -637,7 +659,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -668,7 +691,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -677,7 +701,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -696,7 +721,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -727,7 +753,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -736,7 +763,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -749,7 +777,8 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -768,7 +797,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -799,7 +829,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -808,7 +839,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -827,7 +859,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -858,7 +891,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -867,7 +901,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -880,7 +915,8 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -899,7 +935,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -930,7 +967,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -939,7 +977,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -958,7 +997,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -989,7 +1029,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -998,7 +1039,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -1011,7 +1053,8 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -1030,7 +1073,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1061,7 +1105,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1070,7 +1115,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -1089,7 +1135,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1120,7 +1167,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1129,7 +1177,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -1142,7 +1191,8 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
@@ -1161,7 +1211,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1192,7 +1243,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1201,7 +1253,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -1220,7 +1273,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1251,7 +1305,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1260,7 +1315,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -1273,14 +1329,16 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1305,7 +1363,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1336,7 +1395,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1345,7 +1405,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -1358,7 +1419,8 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (component_inst_array_or_range
                             (array
                               (constant_expression
@@ -1371,7 +1433,8 @@ addrmap ambaAPB {
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1392,7 +1455,8 @@ addrmap ambaAPB {
                         (component_body
                           (component_body_elem
                             (explicit_component_inst
-                              (id)
+                              (id
+                                (id_start))
                               (component_insts
                                 (component_inst
                                   (constant_expression
@@ -1407,7 +1471,8 @@ addrmap ambaAPB {
                                 (component_body
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1438,7 +1503,8 @@ addrmap ambaAPB {
                                                   (accesstype_literal)))))))))
                                   (component_body_elem
                                     (explicit_component_inst
-                                      (id)
+                                      (id
+                                        (id_start))
                                       (component_insts
                                         (component_inst
                                           (constant_expression
@@ -1447,7 +1513,8 @@ addrmap ambaAPB {
                                                 (number))))))))))
                               (component_insts
                                 (component_inst
-                                  (id)
+                                  (id
+                                    (id_start))
                                   (component_inst_array_or_range
                                     (range
                                       (constant_expression
@@ -1460,14 +1527,16 @@ addrmap ambaAPB {
                                             (number))))))))))))
                       (component_insts
                         (component_inst
-                          (id)
+                          (id
+                            (id_start))
                           (constant_expression
                             (constant_primary
                               (primary_literal
                                 (number))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal

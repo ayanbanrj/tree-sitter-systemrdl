@@ -830,6 +830,23 @@
     }
   },
   {
+    "type": "embedded_perl",
+    "named": true,
+    "extra": true,
+    "fields": {
+      "content": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "embedded_perl_code",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
     "type": "enum_body",
     "named": true,
     "fields": {},
@@ -1071,6 +1088,29 @@
           }
         ]
       }
+    }
+  },
+  {
+    "type": "id",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "id_chunk",
+          "named": true
+        },
+        {
+          "type": "id_escaped",
+          "named": true
+        },
+        {
+          "type": "id_start",
+          "named": true
+        }
+      ]
     }
   },
   {
@@ -1938,6 +1978,10 @@
     "named": false
   },
   {
+    "type": "%>",
+    "named": false
+  },
+  {
     "type": "&",
     "named": false
   },
@@ -2011,6 +2055,14 @@
   },
   {
     "type": "<",
+    "named": false
+  },
+  {
+    "type": "<%",
+    "named": false
+  },
+  {
+    "type": "<%=",
     "named": false
   },
   {
@@ -2119,9 +2171,8 @@
     "named": false
   },
   {
-    "type": "embedded_perl",
-    "named": true,
-    "extra": true
+    "type": "embedded_perl_code",
+    "named": true
   },
   {
     "type": "encode",
@@ -2152,7 +2203,15 @@
     "named": false
   },
   {
-    "type": "id",
+    "type": "id_chunk",
+    "named": true
+  },
+  {
+    "type": "id_escaped",
+    "named": true
+  },
+  {
+    "type": "id_start",
     "named": true
   },
   {

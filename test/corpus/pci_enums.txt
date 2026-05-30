@@ -119,10 +119,12 @@ pci_enums.rdl
   (line_comment)
   (description
     (enum_def
-      (id)
+      (id
+        (id_start))
       (enum_body
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -130,14 +132,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -145,14 +149,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -160,7 +166,8 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
@@ -171,10 +178,12 @@ pci_enums.rdl
   (line_comment)
   (description
     (enum_def
-      (id)
+      (id
+        (id_start))
       (enum_body
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -182,14 +191,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -197,14 +208,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -212,14 +225,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -227,14 +242,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -242,14 +259,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -257,14 +276,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -272,14 +293,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -287,14 +310,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -302,14 +327,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -317,14 +344,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -332,14 +361,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -347,14 +378,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -362,14 +395,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -377,14 +412,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -392,14 +429,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -407,14 +446,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -422,14 +463,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -437,14 +480,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -452,7 +497,8 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
@@ -461,10 +507,12 @@ pci_enums.rdl
   (line_comment)
   (description
     (enum_def
-      (id)
+      (id
+        (id_start))
       (enum_body
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -472,14 +520,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -487,14 +537,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -502,7 +554,8 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
@@ -510,10 +563,12 @@ pci_enums.rdl
                       (string_literal)))))))))))
   (description
     (enum_def
-      (id)
+      (id
+        (id_start))
       (enum_body
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -521,14 +576,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -536,14 +593,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -551,14 +610,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -566,14 +627,16 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary
                     (primary_literal
                       (string_literal))))))))
         (enum_entry
-          (id)
+          (id
+            (id_start))
           (constant_expression
             (constant_primary
               (primary_literal
@@ -581,7 +644,8 @@ pci_enums.rdl
           (enum_property_assignment
             (explicit_prop_assignment
               (prop_assignment_lhs
-                (id))
+                (id
+                  (id_start)))
               (prop_assignment_rhs
                 (constant_expression
                   (constant_primary

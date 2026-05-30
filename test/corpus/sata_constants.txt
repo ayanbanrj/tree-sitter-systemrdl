@@ -16,4 +16,5 @@ sata_constants.rdl
   (line_comment)
   (line_comment)
   (line_comment)
-  (embedded_perl))
+  (embedded_perl
+    (embedded_perl_code)))

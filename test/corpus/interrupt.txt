@@ -455,11 +455,13 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -468,7 +470,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -514,7 +517,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -526,10 +530,12 @@ addrmap int_map_m {
                       (explicit_or_default_prop_assignment
                         (explicit_prop_modifier
                           (prop_mod)
-                          (id)))))))
+                          (id
+                            (id_start))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -542,7 +548,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -554,10 +561,12 @@ addrmap int_map_m {
                       (explicit_or_default_prop_assignment
                         (explicit_prop_modifier
                           (prop_mod)
-                          (id)))))))
+                          (id
+                            (id_start))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -570,7 +579,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -582,10 +592,12 @@ addrmap int_map_m {
                       (explicit_or_default_prop_assignment
                         (explicit_prop_modifier
                           (prop_mod)
-                          (id)))))))
+                          (id
+                            (id_start))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -598,7 +610,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -610,10 +623,12 @@ addrmap int_map_m {
                       (explicit_or_default_prop_assignment
                         (explicit_prop_assignment
                           (prop_assignment_lhs
-                            (id))))))))
+                            (id
+                              (id_start)))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -634,11 +649,13 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -647,7 +664,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -686,7 +704,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -696,7 +715,8 @@ addrmap int_map_m {
                   (line_comment)))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -709,7 +729,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -719,7 +740,8 @@ addrmap int_map_m {
                   (line_comment)))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -732,7 +754,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -742,7 +765,8 @@ addrmap int_map_m {
                   (line_comment)))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -753,11 +777,13 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -766,7 +792,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -805,7 +832,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -814,7 +842,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -828,7 +857,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -837,7 +867,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -851,7 +882,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -860,7 +892,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -875,11 +908,13 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -888,7 +923,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -900,7 +936,8 @@ addrmap int_map_m {
               (explicit_or_default_prop_assignment
                 (explicit_prop_modifier
                   (prop_mod)
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -934,7 +971,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -943,7 +981,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -966,7 +1005,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -975,7 +1015,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -998,7 +1039,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1007,7 +1049,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1030,7 +1073,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1039,7 +1083,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1069,11 +1114,13 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1082,7 +1129,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1119,7 +1167,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1128,7 +1177,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1151,7 +1201,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1160,7 +1211,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1183,7 +1235,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1192,7 +1245,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1215,7 +1269,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1224,7 +1279,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1251,11 +1307,13 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1264,7 +1322,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1301,7 +1360,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1310,7 +1370,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1333,7 +1394,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1342,7 +1404,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1365,7 +1428,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1374,7 +1438,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1397,7 +1462,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1406,7 +1472,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (component_inst_array_or_range
                     (range
                       (constant_expression
@@ -1434,11 +1501,13 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1447,7 +1516,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1484,7 +1554,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1493,7 +1564,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1506,7 +1578,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1515,7 +1588,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1525,11 +1599,13 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1538,7 +1614,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1563,7 +1640,8 @@ addrmap int_map_m {
               (explicit_or_default_prop_assignment
                 (explicit_prop_modifier
                   (prop_mod)
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (property_assignment
               (explicit_or_default_prop_assignment
@@ -1585,7 +1663,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1594,7 +1673,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1607,7 +1687,8 @@ addrmap int_map_m {
                 (component_body
                   (component_body_elem
                     (explicit_component_inst
-                      (id)
+                      (id
+                        (id_start))
                       (component_insts
                         (component_inst
                           (constant_expression
@@ -1616,7 +1697,8 @@ addrmap int_map_m {
                                 (string_literal))))))))))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -1626,12 +1708,15 @@ addrmap int_map_m {
       (component_named_def
         (component_type
           (component_primary_type))
-        (id)
+        (id
+          (id_start))
         (component_body
-          (embedded_perl)
+          (embedded_perl
+            (embedded_perl_code))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1640,7 +1725,8 @@ addrmap int_map_m {
                         (string_literal))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
                   (constant_expression
@@ -1653,24 +1739,30 @@ addrmap int_map_m {
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (line_comment)
           (line_comment)
           (line_comment)
@@ -1681,595 +1773,726 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
                         (number))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
                         (number))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
                         (number))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (line_comment)
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
                         (number))))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)))))
+                  (id
+                    (id_start))))))
           (component_body_elem
             (property_assignment
               (post_prop_assignment
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
-          (line_comment)
-          (component_body_elem
-            (property_assignment
-              (post_prop_assignment
-                (prop_ref
-                  (instance_ref
-                    (instance_ref_element
-                      (id))
-                    (instance_ref_element
-                      (id)))
-                  (id))
-                (prop_assignment_rhs
-                  (constant_expression
-                    (constant_primary
-                      (instance_or_prop_ref
-                        (instance_ref
-                          (instance_ref_element
-                            (id))
-                          (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2277,19 +2500,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2297,19 +2525,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2317,19 +2550,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2337,19 +2575,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2357,19 +2600,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2377,20 +2625,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
-          (line_comment)
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2398,58 +2650,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
-          (line_comment)
-          (line_comment)
-          (component_body_elem
-            (property_assignment
-              (post_prop_assignment
-                (prop_ref
-                  (instance_ref
-                    (instance_ref_element
-                      (id))
-                    (instance_ref_element
-                      (id)))
-                  (id))
-                (prop_assignment_rhs
-                  (constant_expression
-                    (constant_primary
-                      (instance_or_prop_ref
-                        (instance_ref
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
-          (line_comment)
-          (line_comment)
-          (component_body_elem
-            (property_assignment
-              (post_prop_assignment
-                (prop_ref
-                  (instance_ref
-                    (instance_ref_element
-                      (id))
-                    (instance_ref_element
-                      (id)))
-                  (id))
-                (prop_assignment_rhs
-                  (constant_expression
-                    (constant_primary
-                      (instance_or_prop_ref
-                        (instance_ref
-                          (instance_ref_element
-                            (id)))
-                        (id))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (line_comment)
           (component_body_elem
@@ -2458,18 +2676,23 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
           (line_comment)
           (line_comment)
           (component_body_elem
@@ -2478,18 +2701,23 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
           (line_comment)
           (line_comment)
           (component_body_elem
@@ -2498,18 +2726,23 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
           (line_comment)
           (line_comment)
           (component_body_elem
@@ -2518,18 +2751,23 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
           (line_comment)
           (line_comment)
           (component_body_elem
@@ -2538,26 +2776,108 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
+          (line_comment)
+          (line_comment)
+          (component_body_elem
+            (property_assignment
+              (post_prop_assignment
+                (prop_ref
+                  (instance_ref
+                    (instance_ref_element
+                      (id
+                        (id_start)))
+                    (instance_ref_element
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
+                (prop_assignment_rhs
+                  (constant_expression
+                    (constant_primary
+                      (instance_or_prop_ref
+                        (instance_ref
+                          (instance_ref_element
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
+          (line_comment)
+          (line_comment)
+          (component_body_elem
+            (property_assignment
+              (post_prop_assignment
+                (prop_ref
+                  (instance_ref
+                    (instance_ref_element
+                      (id
+                        (id_start)))
+                    (instance_ref_element
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
+                (prop_assignment_rhs
+                  (constant_expression
+                    (constant_primary
+                      (instance_or_prop_ref
+                        (instance_ref
+                          (instance_ref_element
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
+          (line_comment)
+          (line_comment)
+          (component_body_elem
+            (property_assignment
+              (post_prop_assignment
+                (prop_ref
+                  (instance_ref
+                    (instance_ref_element
+                      (id
+                        (id_start)))
+                    (instance_ref_element
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
+                (prop_assignment_rhs
+                  (constant_expression
+                    (constant_primary
+                      (instance_or_prop_ref
+                        (instance_ref
+                          (instance_ref_element
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
           (line_comment)
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -2565,10 +2885,12 @@ addrmap int_map_m {
           (line_comment)
           (component_body_elem
             (explicit_component_inst
-              (id)
+              (id
+                (id_start))
               (component_insts
                 (component_inst
-                  (id)
+                  (id
+                    (id_start))
                   (constant_expression
                     (constant_primary
                       (primary_literal
@@ -2580,19 +2902,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2600,19 +2927,24 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id))
+                            (id
+                              (id_start)))
                           (instance_ref_element
-                            (id))))))))))
+                            (id
+                              (id_start)))))))))))
           (line_comment)
           (component_body_elem
             (property_assignment
@@ -2620,18 +2952,23 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
           (line_comment)
           (line_comment)
           (component_body_elem
@@ -2640,17 +2977,22 @@ addrmap int_map_m {
                 (prop_ref
                   (instance_ref
                     (instance_ref_element
-                      (id))
+                      (id
+                        (id_start)))
                     (instance_ref_element
-                      (id)))
-                  (id))
+                      (id
+                        (id_start))))
+                  (id
+                    (id_start)))
                 (prop_assignment_rhs
                   (constant_expression
                     (constant_primary
                       (instance_or_prop_ref
                         (instance_ref
                           (instance_ref_element
-                            (id)))
-                        (id))))))))
+                            (id
+                              (id_start))))
+                        (id
+                          (id_start)))))))))
           (line_comment)
           (line_comment))))))
