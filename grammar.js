@@ -61,6 +61,7 @@ export default grammar({
         $.constraint_def,
         $.explicit_component_inst,
         $.property_assignment,
+        prec(-10, seq($.string_literal, ";")),
       ),
 
     // B.2 User-defined properties
@@ -90,7 +91,8 @@ export default grammar({
 
     property_comp_type: ($) => choice($.component_type, "constraint", "all"),
 
-    property_default: ($) => seq("default", "=", $.constant_expression, ";"),
+    property_default: ($) =>
+      seq("default", "=", optional(field("value", $.constant_expression)), ";"),
 
     property_constraint: ($) =>
       seq("constraint", "=", $.property_constraint_type, ";"),
@@ -162,6 +164,7 @@ export default grammar({
         $.constraint_def,
         $.explicit_component_inst,
         $.property_assignment,
+        prec(-10, seq($.string_literal, ";")),
       ),
 
     component_type: ($) => choice($.component_primary_type, "signal"),
@@ -286,7 +289,11 @@ export default grammar({
     constraint_body: ($) => seq("{", repeat(seq($.constraint_elem, ";")), "}"),
 
     constraint_prop_assignment: ($) =>
-      seq(field("lhs", $.id), "=", field("rhs", $.constant_expression)),
+      seq(
+        field("lhs", $.id),
+        "=",
+        optional(field("rhs", $.constant_expression)),
+      ),
 
     constraint_elem: ($) =>
       choice(
@@ -296,19 +303,31 @@ export default grammar({
           field("lhs", $.constraint_lhs),
           "inside",
           "{",
-          field("rhs", $.constraint_values),
+          optional(field("rhs", $.constraint_values)),
           "}",
         ),
         seq(field("lhs", $.constraint_lhs), "inside", field("rhs", $.id)),
       ),
 
     constraint_values: ($) =>
-      seq($.constraint_value, repeat(seq(",", $.constraint_value))),
+      choice(
+        field("value", $.constraint_value),
+        seq(
+          optional(field("value", $.constraint_value)),
+          repeat1(seq(",", optional(field("value", $.constraint_value)))),
+        ),
+      ),
 
     constraint_value: ($) =>
       choice(
         $.constant_expression,
-        seq("[", $.constant_expression, ":", $.constant_expression, "]"),
+        seq(
+          "[",
+          optional(field("msb", $.constant_expression)),
+          ":",
+          optional(field("lsb", $.constant_expression)),
+          "]",
+        ),
       ),
 
     constraint_lhs: ($) => choice("this", $.instance_ref),
@@ -330,7 +349,13 @@ export default grammar({
       seq("#", "(", $.param_elem, repeat(seq(",", $.param_elem)), ")"),
 
     param_elem: ($) =>
-      seq(".", field("name", $.id), "(", field("value", $.param_value), ")"),
+      seq(
+        ".",
+        field("name", $.id),
+        "(",
+        optional(field("value", $.param_value)),
+        ")",
+      ),
 
     param_value: ($) => $.constant_expression,
 
@@ -671,6 +696,12 @@ export default grammar({
 
     // B.17 Identifiers
 
-    id: ($) => token(/\\?[a-zA-Z_]\w*/),
+    id: ($) =>
+      token(
+        seq(
+          choice(/[a-zA-Z_]\w*/, /\\\S+ /, /<%([^%]|%+[^%>])*%+>/),
+          repeat(choice(/\w+/, /<%([^%]|%+[^%>])*%+>/)),
+        ),
+      ),
   },
 });

@@ -522,7 +522,6 @@ addrmap some_register_map {
               (component_insts
                 (component_inst
                   (id)
-                  (embedded_perl)
                   (component_inst_array_or_range
                     (range
                       (embedded_perl)
@@ -534,7 +533,6 @@ addrmap some_register_map {
                   (instance_ref
                     (instance_ref_element
                       (id)))
-                  (embedded_perl)
                   (id))
                 (prop_assignment_rhs
                   (constant_expression
