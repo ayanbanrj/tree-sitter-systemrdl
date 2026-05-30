@@ -21,6 +21,15 @@ export default grammar({
     $.macro_usage,
   ],
 
+  conflicts: ($) => [
+    [$.component_anon_def],
+    [$.component_named_def],
+    [$.constant_expression],
+    [$.explicit_component_inst, $.prop_assignment_lhs],
+    [$.component_inst_array_or_range, $.instance_ref_element],
+    [$.constant_multiple_concatenation, $.constant_primary],
+  ],
+
   rules: {
     source_file: ($) => repeat($.description),
 
@@ -32,7 +41,7 @@ export default grammar({
 
     // 16.1 Embedded Perl preprocessing
 
-    embedded_perl: ($) => /<%[\s\S]*?%>/,
+    embedded_perl: ($) => /<%([^%]|%+[^%>])*%+>/,
 
     // 16.2 Verilog-style preprocessor
 
@@ -125,11 +134,23 @@ export default grammar({
         field("type", $.component_type),
         field("name", $.id),
         optional(field("params", $.param_def)),
+        repeat(
+          seq(
+            "{",
+            field("type", $.component_type),
+            field("name", $.id),
+            optional(field("params", $.param_def)),
+          ),
+        ),
         field("body", $.component_body),
       ),
 
     component_anon_def: ($) =>
-      seq(field("type", $.component_type), field("body", $.component_body)),
+      seq(
+        field("type", $.component_type),
+        repeat(seq("{", field("type", $.component_type))),
+        field("body", $.component_body),
+      ),
 
     component_body: ($) => seq("{", repeat($.component_body_elem), "}"),
 
@@ -165,13 +186,48 @@ export default grammar({
       ),
 
     component_inst: ($) =>
-      seq(
-        field("name", $.id),
-        optional(field("range", $.component_inst_array_or_range)),
-        optional(seq("=", field("reset", $.constant_expression))),
-        optional(seq("@", field("address", $.constant_expression))),
-        optional(seq("+=", field("stride", $.constant_expression))),
-        optional(seq("%=", field("alignment", $.constant_expression))),
+      choice(
+        seq(
+          field("name", $.id),
+          optional(field("range", $.component_inst_array_or_range)),
+          optional(seq("=", optional(field("reset", $.constant_expression)))),
+          optional(seq("@", optional(field("address", $.constant_expression)))),
+          optional(seq("+=", optional(field("stride", $.constant_expression)))),
+          optional(
+            seq("%=", optional(field("alignment", $.constant_expression))),
+          ),
+        ),
+        seq(
+          field("range", $.component_inst_array_or_range),
+          optional(seq("=", optional(field("reset", $.constant_expression)))),
+          optional(seq("@", optional(field("address", $.constant_expression)))),
+          optional(seq("+=", optional(field("stride", $.constant_expression)))),
+          optional(
+            seq("%=", optional(field("alignment", $.constant_expression))),
+          ),
+        ),
+        seq(
+          seq("=", optional(field("reset", $.constant_expression))),
+          optional(seq("@", optional(field("address", $.constant_expression)))),
+          optional(seq("+=", optional(field("stride", $.constant_expression)))),
+          optional(
+            seq("%=", optional(field("alignment", $.constant_expression))),
+          ),
+        ),
+        seq(
+          seq("@", optional(field("address", $.constant_expression))),
+          optional(seq("+=", optional(field("stride", $.constant_expression)))),
+          optional(
+            seq("%=", optional(field("alignment", $.constant_expression))),
+          ),
+        ),
+        seq(
+          seq("+=", optional(field("stride", $.constant_expression))),
+          optional(
+            seq("%=", optional(field("alignment", $.constant_expression))),
+          ),
+        ),
+        seq("%=", optional(field("alignment", $.constant_expression))),
       ),
 
     component_inst_alias: ($) => seq("alias", $.id),
@@ -267,7 +323,7 @@ export default grammar({
         field("type", $.data_type),
         field("name", $.id),
         optional(field("array", $.array_type)),
-        optional(seq("=", field("default", $.constant_expression))),
+        optional(seq("=", optional(field("default", $.constant_expression)))),
       ),
 
     param_inst: ($) =>
@@ -288,7 +344,7 @@ export default grammar({
     enum_entry: ($) =>
       seq(
         field("name", $.id),
-        optional(seq("=", field("value", $.constant_expression))),
+        optional(seq("=", optional(field("value", $.constant_expression)))),
         optional(field("properties", $.enum_property_assignment)),
         ";",
       ),
@@ -316,7 +372,7 @@ export default grammar({
       choice(
         seq(
           field("lhs", $.prop_assignment_lhs),
-          optional(seq("=", field("rhs", $.prop_assignment_rhs))),
+          optional(seq("=", optional(field("rhs", $.prop_assignment_rhs)))),
         ),
         $.explicit_encode_assignment,
       ),
@@ -334,7 +390,7 @@ export default grammar({
       choice(
         seq(
           field("lhs", $.prop_ref),
-          optional(seq("=", field("rhs", $.prop_assignment_rhs))),
+          optional(seq("=", optional(field("rhs", $.prop_assignment_rhs)))),
           ";",
         ),
         seq($.post_encode_assignment, ";"),
@@ -402,13 +458,13 @@ export default grammar({
     range: ($) =>
       seq(
         "[",
-        field("msb", $.constant_expression),
+        optional(field("msb", $.constant_expression)),
         ":",
-        field("lsb", $.constant_expression),
+        optional(field("lsb", $.constant_expression)),
         "]",
       ),
 
-    array: ($) => seq("[", field("size", $.constant_expression), "]"),
+    array: ($) => seq("[", optional(field("size", $.constant_expression)), "]"),
 
     array_type: ($) => seq("[", "]"),
 
@@ -423,7 +479,7 @@ export default grammar({
       ),
 
     constant_multiple_concatenation: ($) =>
-      seq("{", $.constant_expression, $.constant_concatenation, "}"),
+      seq("{", optional($.constant_expression), $.constant_concatenation, "}"),
 
     // B.14 Data types
 
@@ -462,10 +518,10 @@ export default grammar({
       token(
         choice(
           /[0-9][0-9_]*/,
-          /0[xX][0-9a-fA-F][0-9a-fA-F_]*/,
-          /[0-9]+'[dD][0-9][0-9_]*/,
-          /[0-9]+'[hH][0-9a-fA-F][0-9a-fA-F_]*/,
-          /[0-9]+'[bB][01][01_]*/,
+          /0[xX][0-9a-fA-F_]*/,
+          /[0-9]*'[dD][0-9_]*/,
+          /[0-9]*'[hH][0-9a-fA-F_]*/,
+          /[0-9]*'[bB][01_]*/,
         ),
       ),
 
@@ -499,48 +555,75 @@ export default grammar({
     constant_expression: ($) =>
       choice(
         $.constant_primary,
-        prec(11, seq($.unary_operator, $.constant_primary)),
-        prec.left(10, seq($.constant_expression, "**", $.constant_expression)),
+        prec(11, seq($.unary_operator, optional($.constant_primary))),
+        prec.left(
+          10,
+          seq($.constant_expression, "**", optional($.constant_expression)),
+        ),
         prec.left(
           9,
           seq(
             $.constant_expression,
             choice("*", "/", "%"),
-            $.constant_expression,
+            optional($.constant_expression),
           ),
         ),
         prec.left(
           8,
-          seq($.constant_expression, choice("+", "-"), $.constant_expression),
+          seq(
+            $.constant_expression,
+            choice("+", "-"),
+            optional($.constant_expression),
+          ),
         ),
         prec.left(
           7,
-          seq($.constant_expression, choice("<<", ">>"), $.constant_expression),
+          seq(
+            $.constant_expression,
+            choice("<<", ">>"),
+            optional($.constant_expression),
+          ),
         ),
         prec.left(
           6,
           seq(
             $.constant_expression,
             choice("<", "<=", ">", ">="),
-            $.constant_expression,
+            optional($.constant_expression),
           ),
         ),
         prec.left(
           5,
-          seq($.constant_expression, choice("==", "!="), $.constant_expression),
+          seq(
+            $.constant_expression,
+            choice("==", "!="),
+            optional($.constant_expression),
+          ),
         ),
-        prec.left(4, seq($.constant_expression, "&", $.constant_expression)),
+        prec.left(
+          4,
+          seq($.constant_expression, "&", optional($.constant_expression)),
+        ),
         prec.left(
           3,
           seq(
             $.constant_expression,
             choice("^", "~^", "^~"),
-            $.constant_expression,
+            optional($.constant_expression),
           ),
         ),
-        prec.left(2, seq($.constant_expression, "|", $.constant_expression)),
-        prec.left(1, seq($.constant_expression, "&&", $.constant_expression)),
-        prec.left(0, seq($.constant_expression, "||", $.constant_expression)),
+        prec.left(
+          2,
+          seq($.constant_expression, "|", optional($.constant_expression)),
+        ),
+        prec.left(
+          1,
+          seq($.constant_expression, "&&", optional($.constant_expression)),
+        ),
+        prec.left(
+          0,
+          seq($.constant_expression, "||", optional($.constant_expression)),
+        ),
         prec.right(
           -1,
           seq(
