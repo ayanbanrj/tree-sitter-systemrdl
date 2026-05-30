@@ -1,0 +1,19 @@
+========================================
+sata_constants.rdl
+========================================
+
+// This RDL file is used to parameterize the main RDL file
+// This shows we can set constants in a separate RDL file
+//
+//
+
+<% $NUM_SATA_PORTS = 5;  %>
+
+---
+
+(source_file
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (embedded_perl))

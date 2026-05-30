@@ -1,0 +1,186 @@
+========================================
+counter_example.rdl
+========================================
+
+// ============================================================================
+//
+// Program  : counter_example.rdl
+// Language : Register Description Language (RDL)
+// Purpose  : This is a counter example designed to show counter features
+//            including stimulus to RDL to see counter functionality
+// ============================================================================
+
+//  Revision:    $Revision:$
+//  Date:        $Date:$
+//
+//  Copyright (c) 2009 The SPIRIT Consortium.
+//
+//  This work forms part of a deliverable of The SPIRIT Consortium.
+//
+//  Use of these materials are governed by the legal terms and conditions
+//  outlined in the disclaimer available from www.spiritconsortium.org.
+//
+//  This source file is provided on an AS IS basis.  The SPIRIT
+//  Consortium disclaims any warranty express or implied including
+//  any warranty of merchantability and fitness for use for a
+//  particular purpose.
+//
+//  The user of the source file shall indemnify and hold The SPIRIT
+//  Consortium and its members harmless from any damages or liability.
+//  Users are requested to provide feedback to The SPIRIT Consortium
+//  using either mailto:feedback@lists.spiritconsortium.org or the forms at
+//  http://www.spiritconsortium.org/about/contact_us/
+//
+//  This file may be copied, and distributed, with or without
+//  modifications; this notice must be included on any copy.
+//
+field simpleCounter { we; counter; threshold = 0x10; saturate = 0xffffffff; };
+
+reg simple_reg {
+  simpleCounter cntr[31:0];
+  cntr->reset = 32'h0;          //default value of cntr field out of reset
+} ;
+
+
+addrmap some_register_map2 {
+  simple_reg     simple2;
+  simple2.cntr->incrvalue = 32'h1; //counter logic incrementes cntr by 1 each time hardware's incr signal is toggled
+};
+
+---
+
+(source_file
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (line_comment)
+  (description
+    (component_def
+      (component_named_def
+        (component_type
+          (component_primary_type))
+        (id)
+        (component_body
+          (component_body_elem
+            (property_assignment
+              (explicit_or_default_prop_assignment
+                (explicit_prop_assignment
+                  (prop_assignment_lhs
+                    (id))))))
+          (component_body_elem
+            (property_assignment
+              (explicit_or_default_prop_assignment
+                (explicit_prop_assignment
+                  (prop_assignment_lhs
+                    (id))))))
+          (component_body_elem
+            (explicit_component_inst
+              (id)
+              (component_insts
+                (component_inst
+                  (constant_expression
+                    (constant_primary
+                      (primary_literal
+                        (number))))))))
+          (component_body_elem
+            (explicit_component_inst
+              (id)
+              (component_insts
+                (component_inst
+                  (constant_expression
+                    (constant_primary
+                      (primary_literal
+                        (number))))))))))))
+  (description
+    (component_def
+      (component_named_def
+        (component_type
+          (component_primary_type))
+        (id)
+        (component_body
+          (component_body_elem
+            (explicit_component_inst
+              (id)
+              (component_insts
+                (component_inst
+                  (id)
+                  (component_inst_array_or_range
+                    (range
+                      (constant_expression
+                        (constant_primary
+                          (primary_literal
+                            (number))))
+                      (constant_expression
+                        (constant_primary
+                          (primary_literal
+                            (number))))))))))
+          (component_body_elem
+            (property_assignment
+              (post_prop_assignment
+                (prop_ref
+                  (instance_ref
+                    (instance_ref_element
+                      (id)))
+                  (id))
+                (prop_assignment_rhs
+                  (constant_expression
+                    (constant_primary
+                      (primary_literal
+                        (number))))))))
+          (line_comment)))))
+  (description
+    (component_def
+      (component_named_def
+        (component_type
+          (component_primary_type))
+        (id)
+        (component_body
+          (component_body_elem
+            (explicit_component_inst
+              (id)
+              (component_insts
+                (component_inst
+                  (id)))))
+          (component_body_elem
+            (property_assignment
+              (post_prop_assignment
+                (prop_ref
+                  (instance_ref
+                    (instance_ref_element
+                      (id))
+                    (instance_ref_element
+                      (id)))
+                  (id))
+                (prop_assignment_rhs
+                  (constant_expression
+                    (constant_primary
+                      (primary_literal
+                        (number))))))))
+          (line_comment))))))
